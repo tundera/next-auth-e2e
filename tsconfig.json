@@ -18,5 +18,5 @@
     "baseUrl": "."
   },
   "exclude": ["node_modules", "cypress"],
-  "include": ["process.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
