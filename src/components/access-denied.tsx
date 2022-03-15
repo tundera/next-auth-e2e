@@ -5,6 +5,7 @@ export default function AccessDenied() {
     <>
       <h1>Access Denied</h1>
       <p>
+        {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
         <a
           href="/api/auth/signin"
           onClick={(e) => {
